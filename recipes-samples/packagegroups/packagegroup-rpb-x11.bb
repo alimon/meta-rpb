@@ -18,6 +18,8 @@ RDEPENDS_packagegroup-rpb-x11 = "\
     mesa-demos \
     openbox \
     openbox-theme-clearlooks \
+    obexftp \
+    pulseaudio \
     xf86-video-modesetting \
     xterm \
     "
