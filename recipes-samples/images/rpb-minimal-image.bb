@@ -16,3 +16,5 @@ CORE_IMAGE_BASE_INSTALL += " \
 EXTRA_USERS_PARAMS = "\
 useradd -p '' linaro; \
 "
+
+inherit ${@'rpb-multiconfig' if d.getVar('RPB_MULTICONFIG') == '1' else ''}
